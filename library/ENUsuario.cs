@@ -98,7 +98,9 @@ namespace library
             bool hecho = false;
             CADUsuario usuario = new CADUsuario();
             if (usuario.readUsuario(this))
+            {
                 hecho = usuario.deleteUsuario(this);
+            }
 
             return hecho;
         }

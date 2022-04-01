@@ -270,7 +270,7 @@ namespace library
             {
                 conectar = new SqlConnection(constring);
                 conectar.Open();
-                SqlCommand com = new SqlCommand("DELETE FROM [dbo].[Usuarios] WHERE nif = '", conectar);
+                SqlCommand com = new SqlCommand("DELETE FROM [dbo].[Usuarios] WHERE nif = '"+en._nif+"'", conectar);
                 com.ExecuteNonQuery();
             }
             catch (SqlException e)
