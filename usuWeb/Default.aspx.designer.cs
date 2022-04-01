@@ -15,31 +15,40 @@ namespace usuWeb
     {
 
         /// <summary>
-        /// userTextBox control.
+        /// user_NIF control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox userTextBox;
+        protected global::System.Web.UI.WebControls.TextBox user_NIF;
 
         /// <summary>
-        /// NombreTextBox control.
+        /// user_NAME control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NombreTextBox;
+        protected global::System.Web.UI.WebControls.TextBox user_NAME;
 
         /// <summary>
-        /// TextBox1 control.
+        /// user_AGE control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox user_AGE;
+
+        /// <summary>
+        /// mensajeDeSalida control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label mensajeDeSalida;
 
         /// <summary>
         /// buttom_Leer control.
